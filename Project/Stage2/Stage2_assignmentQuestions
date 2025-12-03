@@ -1,0 +1,37 @@
+Project Stage II — Statistical Analysis
+Reload the newdataset you saved in stage I, this stage we will explore statistical analysis and propose Hypothesis questions.
+Task 1- Descriptive Statistics (20 points)
+Review the features you explored in stage I (at least 3 features per team, at least two features are numerical - continuous/discrete); if there is no numerical feature, revisit the original dataset and select a suitable and meaningful numerical feature. Categorical features can still be included, but they must be encoded into numeric form (e.g., gender → 0/1)
+
+a. Cacluate the selected features mean, median, variance, skewness and kurtosis. (10 points)
+
+b.Identify the type of data: categorical or numerical. If numerical, is it continuous or discrete? Summarize your findings. (10 points)
+
+ 
+Task 2 - Distribution Fitting (20 points)
+a. Select one suitable numerical feature from task 1. Propose a theoretical distribution (Normal, Binomial, Poisson, Exponential, Geometric, etc.) and explain why you choose it. (6 points)
+
+b. Plot histogram of your feature, overlay a smooth curve of the fitted theoretical distribution (10 points). Discuss how your data fits the distribution. (4 points)
+
+ 
+Task 3 - Point Estimate (20 points)
+a. Randomly select 100 samples from the feature selected in Task 2, caculate the sample mean and variance. Compare with the population mean and variance. (10 points)
+
+b. Repeat the random sampling 3 times and show how sample mean/variance vary due to randomness. Discuss your findings. (10 points)
+
+ 
+Task 4 - Correlation Analysis (20 points)
+Among the features in task 1, calculate the correlation coefficients. Use a heatmap or correlation matrix for visualization.
+
+ 
+Task 5 - Hypothsis Question Propose. (20 points)
+Formulate 3 hypothsis questions based on your whole data. Choose 3 different variables to compare against.
+
+For example: Does higher employment data lead to higher covid case? The variable here is employment data.
+
+Make sure your hypothsis questions are meaningful, since we will test on it in next stage.
+
+ 
+Upload your notebook in Github and a pdf/html version in canvas. Make sure all the figures are clearly shown in your submission.
+
+Prepare slide for the mid-term presentation, all teams need to present the first 2 stages of your project. Each group will be assigned at most 15 minutes.
