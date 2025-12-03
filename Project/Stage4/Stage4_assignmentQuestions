@@ -1,0 +1,49 @@
+Project Stage IV — Model validation, Visualization and Presentation
+In this final stage, you will revisit and validate your best-performing model from Stage III, apply cross-validation to evaluate its robustness, and design clear, effective visualizations to communicate your results. The visualization design is flexible — your group is encouraged to discuss, experiment, and decide on the most compelling way to present your findings. You will also prepare a final presentation that summarizes your entire project journey across Stages I–IV.
+Task 1- Model validation (25%)
+a. (20%) Revisit your best model, evaluate whether there are ways to improve its performance or robustness. Perform cross validation to access model stability. Report the mean and standard deviation of your evaluation metrics:
+
+Regression: R², RMSE
+
+Classification: Accuracy, F1-score, AUC
+
+ 
+b. (5%) Discuss your findings: is there any performance changes before and after applying CV? Is your model generalize well? Are your satisfied with your current results?
+
+ 
+Task 2 - Visualization (35%)
+a.(15%) Model-Specific Visualizations. Each figure should have clear titles, axis labels, and legends.
+
+Regression:
+
+Predicted vs Actual values with a fitted trend line.
+
+Residual or error plot.
+Classification:
+
+Confusion matrix, ROC curve, and precision–recall curve.
+
+Feature importance bar plot.
+Clustering:
+
+2D or 3D scatter plot of clusters, with centroid indicators.
+ 
+b.(20%) Interactive Plotly/Dash Visualization
+
+Based on your tasks, create at least one interactive dashboard or figure using plotly.express or Dash. For example, interactive scatter plot of predicted vs actual values with hover tooltips; ROC curve with hover threshold values; Dashboard with tabs or dropdowns to view different models, metrics, or feature importances. |
+
+Include necessary screenshots in your r to show it is interactiveeport.
+
+ 
+Task 3 - Submission and Presentation (40%)
+a. (10%) Please upload the notebook with a report summary the final stage to your github and canvas. Remember to sumit the screenshot for Task 2b showing that the figure is interative. Please upload the final presentation slides to canvas before the due date.
+
+ 
+Graduate students only: graduate students are required to submit a project report in IEEE format. The report should be at least 3 pages for a single author, 5 pages for two authors or more, inclusive of figures and references. Please ensure that the report is submitted before the final week of the course.
+
+ 
+b. (30%) Presentation dates: Nov 25 and Dec 2 during class time.
+
+Each team will have up to 15 minutes to present. Briefly summarize Stage I & II. Explain Stage III model building and Stage IV validation & visualization in more detail. Show visualizations and a short demo or screenshots of your interactive figure.
+
+Every group member must participate in your timeslot, but not both days. If your group has preference on either day, please let me know earlier, otherwise I will assign the order randonmly.
