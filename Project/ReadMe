@@ -1,0 +1,32 @@
+This folder is for the data science project.
+
+The objective of the project is to predict the number of days a video can trend based on the views, likes, dislikes it received on the first day. This is a regression task and the dataset is downloaded from kaggle. below are the details.
+This project is carried in 4 stages, this folder has all the stages details.
+
+
+YouTube Trending Video Analysis
+Dataset: https://www.kaggle.com/datasets/datasnaek/youtube-new
+Description: Analyze factors contributing to trending status of videos.
+1. Problem Statement
+Describe the main problem the project aims to solve based on the dataset: Analyze factors
+contributing to trending status of videos.
+2. EDA Checklist
+- Explore key variables and their distributions
+- Check for missing values and outliers
+- Examine relationships between main features and target variable
+- Group data by relevant categories and compare statistics
+- Visualize correlations with heatmaps, boxplots, histograms
+3. Hypothesis Testing Ideas
+- Apply t-tests, ANOVA, or Chi-square tests depending on feature types
+- Test whether differences in target variable across categories are significant
+- Correlation tests for numerical features
+4. ML/DL Model Suggestions
+- Baseline: Logistic Regression, Decision Tree, Linear Regression
+- Advanced: Random Forest, XGBoost, LightGBM, Neural Networks
+- For time-series datasets: LSTM, GRU, Prophet
+5. Visualization Suggestions
+- Time-series line charts for temporal data
+- Heatmaps for correlation or category combinations
+- Boxplots for category vs numerical variable comparison
+- Bar charts for frequency counts
+- Scatter plots for two continuous variables
