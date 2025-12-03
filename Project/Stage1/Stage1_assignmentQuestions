@@ -1,0 +1,58 @@
+Project stage I report
+Dataset Selection & Project Setup        
+Total: 100 points
+
+Group # ____________________________________________________
+Project title/topic ___________________________________________
+Dataset source (url or resource) ___________________________________________________________
+
+Task 1 Problem framing (10 points)
+Your understanding of the project (what you want to study or predict). 
+Write 4-6 sentences describing: the task (classification/regression/..); who/what benefits from this study; why this dataset fits (size, feature).
+____________________________________________________________________
+____________________________________________________________________
+____________________________________________________________________
+
+Task 2 Dataset exploration (20 points)
+Show the first 10 rows of your dataset; create a dataset dictionary:
+Feature 	Type: Int / float /…	examples	Missing %
+Feature 1			
+Feature 2			
+…			
+Target variables			
+
+Task 3 Feature exploration (40 points)
+Deal with the missing values/outliers; and then create a clean dataset for the next stage analysis. 
+•	Each member works on at least one important feature (≥3 features per team total). 
+•	In your summary, clearly states each member’s contributions.
+
+Task 4 Save cleaned data (10 points)
+•	Save your final cleaned dataset as newdata.csv (UTF-8, includes header).
+•	Place it in your GitHub repo (e.g., /data/newdata.csv). If data is too large/private, include a script to reproduce it and a README with retrieval steps.
+
+Task 5 Delivery (20 points)
+•	Notebook: Use Markdown cells to explain every step (why you did it, not just what). Upload to GitHub.
+•	Export and upload HTML or PDF in canvas, together with project stage I summary.
+
+
+
+
+
+
+
+If your group works on time-series dataset:
+Task 1, same as above
+Task 2: Dataset exploration (20 points)
+•	Show the first 10 rows of your dataset in chronological order.
+•	Create a dataset dictionary that includes the time index and all relevant features:
+Feature	Type (int/float/datetime/…)	Examples	Missing %	Notes
+Timestamp	datetime	2020-01-01, 2020-01-02	0%	Time index, granularity (daily, hourly, monthly)
+Feature 1				
+Feature 2				
+…				
+Target variable(s)				
+
+(Note: Teams are encouraged to enrich their work by exploring multiple independent time-series datasets or by merging relevant external datasets. This can provide deeper insights and stronger analysis, if the integration is well-documented and justified.)
+Task 3-5, same as above
+
+
