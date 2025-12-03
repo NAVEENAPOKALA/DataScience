@@ -1,0 +1,40 @@
+Data Analysis Homework 1: Pandas and Numpy
+Objective: The aim of this assignment is to demonstrate your proficiency in using Jupyter Notebook, IPython, and particularly the Pandas library for data analysis.
+
+Requirements
+Create a new Jupyter Notebook. Import all necessary libraries. Write a brief summary of your findings. Add comments and Markdown cells in your Jupyter Notebook to explain your code and results.
+Submission Guidelines
+Upload the notebook files in canvas, a pdf formart with clear result shown will be easier for TA to grade.
+Ensure that your code is clean, well-commented, and easily understandable.
+import numpy as np
+import pandas as pd
+Q1. (70 points)
+
+Use Pandas to load both data/AIS/transit_segments.csv, and data/AIS/vessel_information.csv. Show the first 5 rows of each dataset to inspect it.(10points)
+
+For data/AIS/vessel_information.csv, keep only those rows with the type value occurring for at least 99 times in the dataset. (10points)
+
+Merge data/AIS/vessel_information.csv and data/AIS/transit_segments.csv on the "mmsi" column using outer join. (10points)
+
+If you are not allowed to call the inner join provided by Pandas but have the above outer join results, how to get the results of inner join? You can use other functions provided by Pandas (but not a function that directly implements the inner join). (10points)
+
+Now directly call the inner join provided by Pandas, check whether your results above are exactly the same, give your analysis. (10points)
+
+Save merged dataset as AIS_merge.csv and check the missing values (skip the time features). Replace missing values with column mode. (10points)
+
+Use z-scores to detect outliers. Discuss how you would deal with them if there is any, you don't need to actually implement. (10points)
+
+ 
+Q2. (30 points)
+
+Use numpy to create array X of shape (4, 3). Each row represents one data point in 3 dimensions. Values should be random integers between 0 and 9 (inclusive). Set a random seed so the result is reproducible. Print X. (10points)
+
+write a function dist() to measure the Euclidean distance (https://en.wikipedia.org/wiki/Euclidean_distance) between each pair of datapoints in X. Print the resulting with 3 decimals. (10points)
+
+Consider adding a new point and add it to X using broadcasting.
+
+A datapoint with coordinate ( 3, 1, 2);
+A datapoint with two dimension (9, 6);
+or a datapoint one dimension (2).
+Discuss each case, can it do broadcasting or not.(10points)
+
