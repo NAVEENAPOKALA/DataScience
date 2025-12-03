@@ -1,0 +1,29 @@
+Plotting Titanic Dataset.
+%matplotlib inline
+import pandas as pd
+import numpy as np
+import matplotlib as mpl
+import matplotlib.pyplot as plt
+
+
+import pandas as pd
+titanic = pd.read_excel("../data/titanic.xls", "titanic")
+titanic.head()
+pclass	survived	name	sex	age	sibsp	parch	ticket	fare	cabin	embarked	boat	body	home.dest
+0	1	1	Allen, Miss. Elisabeth Walton	female	29.0000	0	0	24160	211.3375	B5	S	2	NaN	St Louis, MO
+1	1	1	Allison, Master. Hudson Trevor	male	0.9167	1	2	113781	151.5500	C22 C26	S	11	NaN	Montreal, PQ / Chesterville, ON
+2	1	0	Allison, Miss. Helen Loraine	female	2.0000	1	2	113781	151.5500	C22 C26	S	NaN	NaN	Montreal, PQ / Chesterville, ON
+3	1	0	Allison, Mr. Hudson Joshua Creighton	male	30.0000	1	2	113781	151.5500	C22 C26	S	NaN	135.0	Montreal, PQ / Chesterville, ON
+4	1	0	Allison, Mrs. Hudson J C (Bessie Waldo Daniels)	female	25.0000	1	2	113781	151.5500	C22 C26	S	NaN	NaN	Montreal, PQ / Chesterville, ON
+1. Create a horizontal bar chart for number of passengers survived by class
+2. Create a vertical bar chart for passengers survived by class and gender
+3. Create a stacked chart survived vs dead for different classes and gender
+4. Plot histogram of fares paid for passengers in cabin 30 (should include B30, C30, and D30)
+5. Create a box plot of the fares by passenger class
+6. Create a box plot of the age by passenger class
+Try Plotly to do the above questions.
+Points:
+
+Total: 100
+Code: 90
+Documentation within IPython using Markdown: 10
