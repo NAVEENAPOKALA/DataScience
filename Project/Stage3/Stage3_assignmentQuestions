@@ -1,0 +1,57 @@
+Project Stage III — Machine Learning Models
+In this stage, you will test your hypotheses statistically and explore how machine learning models can capture relationships in your cleaned dataset. This task builds the bridge between statistics and predictive modeling.
+Task 1- Hypothesis Verification (30 points)
+Revisit all the Hypothsis questions proposed in Stage II.
+
+a. Write the hypotheses explicitly:
+
+Null (H₀): no difference or no relationship.
+
+Alternative (H₁): difference or relationship exists. 
+ 
+b. Then choose and justify an approporiate test:
+
+t-test / ANOVA – compare means across groups.
+
+Chi-square test – association between two categorical variables.
+
+Correlation test (Pearson/Spearman) – relationship between continuous or ordinal variables.
+
+Regression coefficient test – check if a variable significantly predicts another.
+ 
+c. Report the test statistic, p-value and compare them with significance level (
+), interpret your results clearly: Reject 
+ or fail to reject 
+ and explain what it means in the context of your dataset.
+
+ 
+Task 2 - Machine Learning Exploration (70 points)
+You will now build ML models to test patterns, make predictions, or classify data based on your dataset.
+
+a.(10 points) Define your group task, choose the most suitable ML problem type:
+
+Regression – predict a continuous target (e.g., revenue, temperature).
+
+Classification – predict a category (e.g., survived vs not survived).
+
+Clustering – group unlabeled data (e.g., customer segments).
+Indentify target variable(s) and input features. Split data into train/test sets (80/20).
+
+ 
+b.(10 points) Feature Importance and Selection. Before building models, explore which features contribute most to your target variable. Visualize the top features using a bar chart and discuss which variables you will keep for modeling and why.
+
+ 
+c.(20 points) Baseline model -- Linear Regression. Start with a simple linear regression model, fit different degrees (1, 2, 3, 5).
+
+Compare their performance using 
+ and RMSE; if converted to classification, report accuracy, precision and recall.
+
+Justify which model degree provides the best trade-off between performance and computational cost. Plot predited vs actual values to visualize model performance.
+
+ 
+d.(20 points) Additional Models exploration. Each team should train a number of models corresponding to its size: 2 models for 1–2 members, 3 models for 3 members, and 4 models for 4–5 members.
+
+Clearly label each memebers' name and report their model performance seperately.
+
+ 
+e.(10 points) summarize all results in a comparison table, and identify the best-performing model and explain why.
